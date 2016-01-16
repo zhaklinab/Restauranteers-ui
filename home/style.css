@@ -1,5 +1,5 @@
 body {
-  background-color: #E9EAED !important;
+  background-color: #E9EAED;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -33,7 +33,7 @@ body {
 
 
 .slide2-bg{
-  background-image:url('../images/sfondi2.png' );
+  background:url('../images/sfondi2.png' );
   background-repeat: repeat-x;
 
 }

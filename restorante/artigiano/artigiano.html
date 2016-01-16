@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../../else/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../restorante.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../../bootstrap/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+  <title>Restauranteers</title>
+</head>
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../home/homepage.html">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right nav-menu">
+          <li><a href="../../home/homepage.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="../../login/login.html">Login</a></li>
+          <li><a href="../../login/register.html">Sign Up</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<!--NAVBAR FINISHED-->
+
+<center><h1>Artigiano</h1></center>
+<img class="center-block " src="foto/artigiano2.jpg" alt="..." class="img-thumbnail"><br/>
+<fieldset class="col-md-9 rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+
+</fieldset>
+
+<div class="container">
+  <br/><br/>
+  <div class="panel-group" id="accordion">
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">  Address</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse color">
+        <div class="panel-body">
+              Street Abdyl Frasheri, Tirana 1017, Albania, Tirana, Albania</div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Description</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse color">
+        <div class="panel-body">
+          <p>Mon-Sun:	7:00 am - 12:00 am</p>
+    			<p>Our Kitchen:</p>
+    			<p>Italian Food, Pizza, Handmade Pasta, Delicious Sandwiches, all kind of sweets... Come and try our delicious food!
+            Please Don't Forget to Rate us! :)<p>
+          </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> Menu</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse color">
+        <div class="panel-body">
+          <img src="foto/artigiano1.png" alt="..." class="img-rounded">
+          <img src="foto/artigiano4.png" alt="..." class="img-rounded">
+          <img src="foto/artigiano5.png" alt="..." class="img-rounded">
+          <img src="foto/artigiano6.png" alt="..." class="img-rounded">
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+            Contact Us
+          </a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse color ">
+        <div class="panel-body">
+          <p>Email: <a href="mailto:artigianotirane@hotmail.com"/>artigianotirane@hotmail.com</a></p>
+          <p>Telephone: 0692092358 & 0692092794</p>
+          <p>Website: <a href="https://www.facebook.com/Artigiano.Tirane"/>https://www.facebook.com/Artigiano.Tirane</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+ <!--FOOTER-->
+<div class="footer">
+  <ul class="pull-right list1">
+    <li>2015© Copyright</li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Developers</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Contact</a></li>
+
+  </ul>
+  <ul class="pull-left list2">
+    <li><a href="https://www.facebook.com/"><img src="../../images/facebook.png"/></a></li>
+   <li><a href="https://www.twitter.com/"><img src="../../images/twitter.png"/></a></li>
+   <li><a href="https://www.pinterest.com/"><img src="../../images/pinterest.png"/></a></li>
+   <li><a href="https://plus.google.com/"><img src="../../images/google+.png"/></a></li>
+  </ul>
+</div>
+<!--FOOTER FINISHED-->
+
+
+</body>
+</html>
